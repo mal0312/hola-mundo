@@ -1,11 +1,11 @@
 package loom.hola_mundo;
 /**
- *  @param nombre de la persona a saludar
- *  @return saludo a la persona
+ *  Parametros: (final string persona)  nombre de la persona a saludar
+ *  retorno : (string) cadena de saludo. 
  */
 public class HolaMundo {
 
     public String saludar(final String persona) {
-    	 return "¡Hola, " + persona + "!";
+    	 return "Hola, " + persona + "!";
     }
 }

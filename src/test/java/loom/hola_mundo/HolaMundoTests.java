@@ -7,6 +7,6 @@ public class HolaMundoTests {
     @Test
     public void queSaludaCorrectamente() {
         HolaMundo holaMundo = new HolaMundo();
-        Assert.assertEquals("¡Hola, Kent Beck!", holaMundo.saludar("Kent Beck"));
+        Assert.assertEquals("Hola, Javier Orlando!", holaMundo.saludar("Javier Orlando"));
     }
 }
